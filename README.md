@@ -15,4 +15,11 @@ you can declare variables using let var and const
 const and let are more strict than var, const is for constant and avoid using var, before code phase var assigns memory with undefined, let and const are also memory allocated but not initailised with undefined and you cant access it. its the temporal dead zone. (avoid this by iniatlise at start)<br>
 const and let are block scoped...if value of variable is not mentioned in function then outside is taken otheriwse inner-> lexical scope but vice versa isnt allowed <br>
 fucntions are called first class citizens <br>
-they can be assigned as variable, can be passed as arguments in other functions. called higher order function(take function as argumnets or return functions)
+they can be assigned as variable, can be passed as arguments in other functions. called higher order function(take function as argumnets or return functions) <br>
+
+How to handle asynchronous behaviour in javascript -> like data is being fetched will the whole code wait? no we have callbacks <br>
+call backs are functions executed after a specific operation is done-> event queue and event loop
+<br> Problems with Callbacks- callback hell and pyramid of doom<br>
+promises-object 
+<br> 3 states
+-> pending,fulfilled,rejected-> can implement async operation succesfully
